@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/bb5de389-f9d1-4d0d-a6e2-30d148435660)### Placed
+### Placed
 ## LIVE DEMO: [https://placed-dqis.vercel.app/](https://placed-dqis.vercel.app/#/ques)
 
 # A forum web app for students to share interview and test questions built using ReactJS and Vite. Supported by a modular frontend and a FastAPI backend with MongoDB for data storage.
