@@ -1,0 +1,42 @@
+.company-img{
+    /* object-fit: cover; */
+    display: block;
+    max-width:25px;
+    max-height:25px;
+    min-width:25px;
+    min-height:25px;
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    padding: 5px 5px 5px 5px;
+    background-color: aliceblue;
+    
+/* height: 250px; */
+}
+.company-card{
+    display: flex;
+    justify-content:left;
+    padding-left: 4%;
+    transition: transform 0.5s ease;
+    /* border-radius: 200px; */
+}
+.company-card:hover{
+  transform: scale(1.08);
+  /* background-color: #aeaeae78; */
+  /* backdrop-filter: blur(100px); */
+  background: linear-gradient(135deg, #0c151a5a, #104c6449, #98380e);
+
+}
+.company-name{
+    padding-left: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    font-size:medium;
+}
+.company-name-by{
+    padding-left: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:normal;
+    font-size:small;
+    display: block;
+}

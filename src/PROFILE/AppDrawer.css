@@ -1,0 +1,85 @@
+/* General styles */
+.drawer {
+  position: fixed; /* Position it fixed to the viewport */
+  top: 0; /* Align to the top */
+  left: -300px; /* Hide it off-screen to the left initially */
+  width: 300px; /* Width of the drawer */
+  height: 100%; /* Full height */
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+  border-radius: 10px; /* Optional: rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add some shadow for depth */
+  transition: left 0.3s ease; /* Smooth transition for opening/closing */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+.drawer.open {
+  left: 0; /* Show the drawer by moving it into view */
+}
+
+.drawer.closed {
+  left: -300px; /* Hide the drawer off-screen */
+}
+  
+  .drawer-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+    padding: 10px;    
+    cursor: pointer;
+    z-index: 1100;
+  }
+  
+  .drawer-close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .drawer-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 900;
+  }
+  
+  .drawer-overlay.show {
+    display: block;
+  }
+  .drawer ul {
+    list-style-type: none; /* Remove default bullet points */
+    text-align: left;
+    padding: 25%;
+    color: aliceblue; /* Remove default padding */
+  }
+
+  .drawer li {
+    margin-top: 30%;
+    color: white; /* Change text color to white */
+    font-weight: bold; /* Make text bold */
+    font-size: 200%;
+    padding: 5px; 
+    cursor: pointer; 
+  }
+  .drawer li a{
+    color: white; /* Change text color to white */
+    font-weight: bold; /* Make text bold */
+    font-size: 100%;
+    text-align: left;
+    cursor: pointer; 
+  }
+
+  

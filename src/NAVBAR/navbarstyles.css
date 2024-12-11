@@ -1,0 +1,70 @@
+.nav-containerf {
+    /* margin: 0 auto; */
+    /* padding: 0 1rem; */
+    width: 1230px;
+    min-width: 500px;
+    position: relative;
+    background-color: white;
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1%;
+    justify-content: space-between;
+  }
+  
+  .nav-linkf{
+    /* align-self: flex-end; */
+    position: absolute;
+    right: 1%;
+    float: right;
+    min-width: 500px;
+    /* background-color: chartreuse; */
+  }
+  .nav-linkf ul {
+    list-style: none;
+    /* margin: 1px 600px; */
+    min-width: 700px;
+    display: flex; /* makes the list horizontal */
+    
+  }
+  
+  .nav-linkf ul li {
+    margin: 0 3rem;
+    /* margin-top: 10px; */
+    padding-top: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+  } 
+  .nav-linkf ul li :hover{
+    color: #a00000;
+  }
+  .nav-left-and-right{
+    display: flex;
+  }
+  .nav-linkf ul li a {
+      color: rgb(31, 5, 5);
+      text-decoration:none; /* Removes underline from links */
+      font-size: 1.2rem;
+      /* border-radius: 10px; */
+      display:block;
+      align-items: center;
+  }
+  .logo-imagef{
+    padding-top: 9%;
+    /* background-color: coral; */
+  }
+  .profile-buttonf img{
+    height:30px;
+  }
+  .profile-buttonf{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border: 0px;
+    background-color:#b6410f00;
+    transition: transform 0.5s ease;
+  }
+  .profile-buttonf:hover{
+    transform: scale(1.2);
+    /* background-color: #a00000; */
+  }

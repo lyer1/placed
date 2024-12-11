@@ -1,0 +1,35 @@
+.company{
+    color:white;
+    font-size: x-large;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow: hidden;
+}
+.scroll-list{
+    overflow-y: scroll;
+    height: 110%;
+    width: 250px;
+}
+
+.scroll-container{
+    /* background-color: red; */
+    height: 300px;
+}
+.scroll-list::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(95, 1, 1, 0.3);
+	background-color: #f5000000;
+}
+
+.scroll-list::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #00000000;
+}
+
+.scroll-list::-webkit-scrollbar-thumb
+{
+	background-color :#B6410F;	
+	background: linear-gradient(0deg, #98380e, #98380e)
+}
+

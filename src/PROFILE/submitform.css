@@ -1,0 +1,73 @@
+/* Center the form horizontally on the page */
+.submission-form {
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 50px; /* Add some vertical spacing */
+    width: 400px; /* Fixed width for the form */
+    background-color: #ffffff; /* Background color for the form */
+    border-radius: 15px; /* Curved edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a nice effect */
+    padding: 20px; /* Padding inside the form */
+    font-family: Arial, sans-serif; /* Font family */
+  }
+  
+  /* Form header or title styling */
+  .submission-form h2 {
+    text-align: center; /* Center align the text */
+    font-size: 24px; /* Font size */
+    color: #333333; /* Dark text color */
+    margin-bottom: 20px; /* Spacing below the header */
+  }
+  
+  /* Style each form field */
+  .submission-form label {
+    display: block; /* Make the label a block element */
+    font-weight: bold; /* Bold text for labels */
+    margin-bottom: 8px; /* Spacing below the label */
+    color: #555555; /* Slightly lighter text color */
+  }
+  
+  /* Style the input fields */
+  .submission-form input,
+  .submission-form textarea {
+    width: 100%; /* Full width inside the form */
+    padding: 10px; /* Padding for the input fields */
+    border: 1px solid #cccccc; /* Light border */
+    border-radius: 8px; /* Curved edges for inputs */
+    font-size: 16px; /* Font size */
+    margin-bottom: 20px; /* Spacing between fields */
+    box-sizing: border-box; /* Include padding and border in width */
+  }
+  
+  /* Add focus effect to input fields */
+  .submission-form input:focus,
+  .submission-form textarea:focus {
+    outline: none; /* Remove the default outline */
+    border: 1px solid #007BFF; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle shadow effect */
+  }
+  
+  /* Style the submit button */
+  .submission-form button[type="submit"] {
+    width: 100%; /* Full width */
+    padding: 12px; /* Padding for the button */
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 8px; /* Curved edges for the button */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Change button color on hover */
+  .submission-form button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Optional: Style for the textarea */
+  .submission-form textarea {
+    resize: none; /* Disable resize handle for textareas */
+    height: 100px; /* Fixed height for textareas */
+  }
+  

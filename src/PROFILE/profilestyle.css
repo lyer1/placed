@@ -1,0 +1,231 @@
+/* General styles */
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  background: url('./bgpattern.jpeg');
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+   /* #00bcd4; Aqua color */
+  border-bottom: 5px solid white;
+  color: #fff;
+}
+
+.name-year {
+  display: flex;
+  margin-left: 5%;
+  flex-direction: column;
+  gap: 10px;
+  transition: color 0.3s ease;
+  text-align: left; /* Ensure text is aligned to the right */
+}
+
+.name h1, .year h2 {
+  color:white;;
+  margin: 0;
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+.button-div{
+  display: flex;
+  justify-content: center;
+}
+
+.link-f{
+  text-decoration: underline;
+  color: white;
+  font-size: larger;
+
+}
+
+.button-f{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: x-large;
+  background-color: transparent;
+  border: solid;
+  border-color: white;
+  color: white;
+  border-radius: 10px;
+}
+.button-f:hover{
+  background-color: rgba(255, 255, 255, 0.399);
+}
+.name h1:hover {
+  color: #C0754D;
+}
+
+.year h2:hover {
+  color: #C0754D;
+}
+
+.links-table {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.links-table h2 {
+  font-size: 1.8rem;
+  margin: auto;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 10px;
+  width: fit-content;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for My Links title */
+.links-table h2:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Glassmorphism effect for the table */
+.links-table table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.1); /* Transparent white background */
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Transparent border */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  backdrop-filter: blur(10px); /* Blur effect for glassmorphism */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  color: #333;
+  
+  /* Smooth transition for properties */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.links-table th, .links-table td {
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Slightly transparent borders */
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.links-table a {
+  color: #00bcd4; /* Aqua color for the links */
+  text-decoration: none;
+}
+
+.links-table a:hover {
+  text-decoration: underline;
+}
+
+/* Hover effect for the table */
+
+
+/* .links-table h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+a {
+  color: #00bcd4; /* Aqua color for the links 
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+} */
+
+i {
+  /* background: white; */
+  /* border-radius: 20px; */
+  border-bottom: 5px solid white;
+  /* font-size: 25px;
+  text-align: center; */
+  margin-right: 10px;
+  border-radius:50%;
+  display:inline-block;
+  padding:10px;
+}
+
+.profile-picture img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.profile-picture img:hover {
+  transform: scale(1.1); /* Scale up by 10% on hover */
+}
+
+/* Content Section */
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+
+/* Glassmorphism for Companies and Questions Asked */
+.companies, .pubs {
+  flex-basis: 45%;
+  background: rgba(255, 255, 255, 0.1); /* Transparent white background */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Transparent border */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  backdrop-filter: blur(10px); /* Blur effect for the glassmorphism */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  color: #ffcc80; /* Text color */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect for better interactivity */
+.companies:hover, .pubs:hover {
+  transform: scale(1.02); /* Slight zoom-in on hover */
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2); /* Larger shadow on hover */
+}
+
+/* 
+.companies, .pubs {
+  flex-basis: 45%;
+  background-color: #ffcc80; /* Lighter orange color 
+  color: #333; 
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+} */
+
+.company-list p, .pub-list p {
+  margin: 10px 0;
+  text-align: left; /* Align all text to the right */
+}
