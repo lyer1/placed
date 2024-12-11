@@ -1,6 +1,6 @@
 import Companies from "./COMPANIES/Companies.jsx";
 import Home from "./HOME/Home.jsx";
-import Questions from './QUESTIONS/questions.jsx';
+import Questions from './QUESTIONS/Questions.jsx';
 import ProfileComp from './PROFILE/ProfileComp.jsx';
 import Signup from './SIGNUP/signup.jsx';
 import { HashRouter, Routes, Route } from "react-router-dom";
