@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./Signup.css";
+import "./signup.css";
 
 const Signup = () => {
   const [name, setName] = useState("");
